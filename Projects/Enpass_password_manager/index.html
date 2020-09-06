@@ -1,0 +1,155 @@
+<!-- Final year project -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"> </script>
+    <title>Password Manager</title>
+</head>
+
+<body>
+    <div class="container-sm">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../../project-list.html">Projects</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Enpass</li>
+            </ol>
+        </nav>
+
+        <div class="jumbotron bg-white text-dark ">
+            <h1 class="display-4"><b> EnPass – The Password Guard</b></h1>
+            <p class="lead">Nowadays passwords have become the essential key to access any web pages or to login any
+                application.
+                An average user accesses numerous sites that it becomes almost impossible for the user to remember all
+                those passwords.
+                This led to problem like password reuse, in which the user uses same password for multiple sites and
+                applications,
+                which create a vulnerability by which the hacker can access the user content easily.
+                There are also cases where users save their important credentials like net-banking’s
+                password without proper security in places like phone book,
+                notes or their personal diaries which can be accessed by any other attacker.
+            </p>
+            <!-- page content -->
+        </div>
+
+
+        <!-- img carousel -->
+        <div class="container-sm shadow-lg w-60">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/1initial_welcome_scrn.PNG" class="rounded mx-auto d-block w-50 " alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>Initial Welcome Screen</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/2log_signup_scrn.PNG" class="rounded mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>Login/SignUp Screen</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/3login_scrn.PNG" class="rounded mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>Login Screen</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/4mpin_scrn.PNG" class="rounded mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>Mpin Screen</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/5dashboard_scrn.PNG" class="rounded mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>Main Dashboard</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/6side_nav_main.PNG" class="rounded mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>Side Nav-Bar</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/7add_detail_scrn.PNG" class="rounded mx-auto d-block w-50" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-dark">
+                            <h5>Adding Details</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev " href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- img carousel -->
+
+        <div class="jumbotron bg-white text-dark mt-30">
+            <div class="container">
+                <p class="lead">Enpass will ease the things for you by storing the password on its own database and providing them to
+                    you whenever needed. Enpass is an android application which can be used by user wherever and whenever user
+                    wants to use in which
+                    n-numbers of passwords can be retrieved by the user according to its account name and master
+                    password.
+                    The master password will remain same for all log which is saved by the user.
+                    The password which will be stored in each log is saved in encrypted form in the database.
+                    AES 256-bit encryption and some hashing technique is implemented in this password manager
+                    application for securing
+                    user’s credentials.<br>
+                    <b>Technology used:</b> Android, Firebase, AES-256, javamail API <br>
+                    <b>Module Developed:</b> Data Encryption, Online database storage, CRUD operation, User Profile Management, Contact Admin, e-Mail functionality, User Authentication/Validation/Verification. 
+                </p>
+                    
+            <p class="text-center mb-n4 mt-20">For complete project visit below link</p><br>
+            <p class="text-center "><a href="https://github.com/nikhil0021/Password-Manager" class="btn btn-link p-1" role="button" aria-pressed="true"><b>Password-Manager Complete Project</b></a>
+            </p>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <hr class="featurette-divider ">
+        <footer class="container align-bottom">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </footer>
+        <!-- END FOOTER -->
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
